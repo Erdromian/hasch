@@ -38,7 +38,7 @@
       (doseq [^bytes bs bytes-or-seq-of-bytes]
         (.update md bs))
       (.update md  ^bytes bytes-or-seq-of-bytes))
-     (.digest md)))
+    (.digest md)))
 
 (defn ^bytes coerce-seq [seq md-create-fn write-handlers]
   (let [^MessageDigest seq-md (md-create-fn)]
