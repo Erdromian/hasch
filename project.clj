@@ -51,6 +51,6 @@
      {:output-to "resources/private/js/test.js"
       :output-dir "resources/private/js/out"
       :optimizations :whitespace
-    :pretty-print true}}]
-  :test-commands {"unit-tests" ["phantomjs" "resources/private/js/test.js"
+      :pretty-print true}}]
+   :test-commands {"unit-tests" ["phantomjs" "resources/private/js/test.js"
                                  "resources/private/html/unit-test.html"]}})
