@@ -11,3 +11,5 @@ pom.xml.asc
 /.repl*
 /out*
 /.cljsbuild*
+.idea
+hasch.iml
